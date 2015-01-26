@@ -85,4 +85,7 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:github
+repo: https://github.com/royleexh/royleexh.github.io
+branch: nodejsVersion
+#message: [message]
