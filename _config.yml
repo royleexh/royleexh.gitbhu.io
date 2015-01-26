@@ -1,4 +1,4 @@
-# Site settings
+# Site settings##########################################
 title: Tech Otakus Change The World
 email: 271173141@qq.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -12,12 +12,17 @@ description: > # this means to ignore newlines until "baseurl:"
   看吧这就是我真正的模样，
   残酷粗陋罪孽深重，
   吾之火焰名为"黑焰"Dark  and  Dark.
-baseurl: "" # the subpath of your site, e.g. /blog/
+##########################################
 url: "http://royleexh.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+#如果你的博客网站是类似http://localhost:4000/blog/index.html这样的路径。
+#那么，在运行时，需要添加参数base-url来实现，
+#比如：jekyll --base-url '/blog' --server
+##########################################
 #twitter_username: jekyllrb
 github_username:  royleexh
 
-# Build settings
+# Build settings##########################################
 #markdown: kramdown
 markdown: rdiscount
 highlighter: pygments
