@@ -24,6 +24,5 @@ github_username:  royleexh
 
 # Build settings##########################################
 #markdown: kramdown
-markdown: rdiscount
 highlighter: rouge
 paginate: 8
